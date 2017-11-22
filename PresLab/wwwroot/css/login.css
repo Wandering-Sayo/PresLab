@@ -1,0 +1,22 @@
+﻿body {
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(top, rgba(177, 192, 220, 0), rgba(177, 192, 220, 0.5));
+}
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.input-group{
+    padding-bottom: 10px;
+}
+
+.input-group-addon {
+    color: rgb(20, 63, 176);
+}
+
+.btn-default {
+    background-color: rgb(43, 197, 191);
+    color: antiquewhite;
+}

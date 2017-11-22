@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_WelcomeLayout.cshtml";
+
+    ViewData["Title"] = "Log In";
+
+}
+
+<img src="~/images/lab_banner.jpg" class="img-responsive banner" alt="Banner">
+<div class="container-fluid">
+    <div class="row logo">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
+            <img src="~/images/logo.svg" class="img-responsive banner" alt="Logo">
+        </div>
+    </div>
+    	
+    <div class="row">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">Username</span>
+              <input type="text" class="form-control" placeholder="Ingrese su usuario" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon2">Contraseña</span>
+              <input type="text" class="form-control" placeholder="Ingrese su contraseña" aria-describedby="basic-addon2">
+            </div>
+            <a class="btn btn-default pull-right" role="button" asp-area="" asp-controller="Main" asp-action="Inicio">Entrar</a>
+		</div>
+    </div>
+	
+</div>
