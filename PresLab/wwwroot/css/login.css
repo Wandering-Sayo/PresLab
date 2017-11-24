@@ -1,6 +1,11 @@
-﻿body {
-    padding-bottom: 20px;
+﻿html {
     background: -webkit-linear-gradient(top, rgba(177, 192, 220, 0), rgba(177, 192, 220, 0.5));
+    height: 100%;
+}
+
+body {
+    padding-bottom: 20px;
+  
 }
 
 .logo{
