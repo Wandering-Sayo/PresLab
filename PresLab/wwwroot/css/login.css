@@ -1,16 +1,50 @@
 ﻿html {
-    background: -webkit-linear-gradient(top, rgba(177, 192, 220, 0), rgba(177, 192, 220, 0.5));
     height: 100%;
 }
 
 body {
+    height: 100%;
     padding-bottom: 20px;
-  
+    background: -webkit-linear-gradient(top, rgba(177, 192, 220, 0), rgba(177, 192, 220, 0.5));
 }
 
-.logo{
-    margin-top: 20px;
+.carousel-indicators {
+    bottom: -50px;
+
+}
+
+.carousel-indicators li{
+    background-color:#6580a6;
+}
+
+.carousel-indicators .active{
+    background-color:#143fb0;
+}
+
+.carousel-inner{
     margin-bottom: 50px;
+}
+
+.carousel .item img{
+   width: 100%;
+}
+
+.carousel ul{
+   list-style-type: none;
+}
+
+.carousel .btn-default {
+    background-color: violet;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 30%;
+
+}
+
+
+.bienvenido {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-bottom: 20px;
 }
 
 .input-group{
